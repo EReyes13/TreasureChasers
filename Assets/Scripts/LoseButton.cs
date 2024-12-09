@@ -10,5 +10,8 @@ public class LoseButton : MonoBehaviour
        {
         SceneManager.LoadScene("Title Screen");
         PlayerController.Health = 3;
+        PlayerController.count = 0;
+        PlayerController.Ability1 = false;
+        PlayerController.Ability2 = false;
        }
 }

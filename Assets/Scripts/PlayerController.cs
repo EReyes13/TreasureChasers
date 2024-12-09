@@ -279,8 +279,15 @@ public class PlayerController : MonoBehaviour
              if(other.gameObject.CompareTag("level"))
              {
                 count ++;
-                SceneManager.LoadScene("Level"+ Random.Range(0,4));
+                if(count >= 3)
+                {
+                    SceneManager.LoadScene("Win");
+                }
+                else
+                {
+                SceneManager.LoadScene("Level"+ Random.Range(1,4));
                 transform.position = new Vector3(0,0,0);
+                }
              }
 }
 }

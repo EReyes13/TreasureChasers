@@ -1460,10 +1460,10 @@ MonoBehaviour:
   TutorialText: {fileID: 0}
   enemies: []
   tp: 0
-  UpperWall: {fileID: 0}
-  LowerWall: {fileID: 0}
-  RightWall: {fileID: 0}
-  LeftWall: {fileID: 0}
+  UpperWall: {fileID: 265359716}
+  LowerWall: {fileID: 800816659}
+  RightWall: {fileID: 891663140}
+  LeftWall: {fileID: 895694188}
 --- !u!212 &2010496297
 SpriteRenderer:
   m_ObjectHideFlags: 0
